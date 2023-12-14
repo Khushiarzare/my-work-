@@ -1,0 +1,45 @@
+#include <stdio.h>
+
+int main()
+{int a,b,c;
+    printf("enter a=");
+    scanf("%d",&a);
+    printf("enter b=");
+    scanf("%d",&b);
+    printf("c=%d",c=a-b);
+    return 0;
+}
+#include <stdio.h>
+
+int main()
+{int a,b,c;
+    printf("enter a=");
+    scanf("%d",&a);
+    printf("enter b=");
+    scanf("%d",&b);
+    c=a;
+    a=b;
+    b=c;
+    printf("a=%d b=%d",a,b);
+    return 0;
+}
+#include <stdio.h>
+
+int main()
+{
+    int 
+    math,phy,hin,eng,chem,average; 
+    printf(" math=");
+    scanf("%d",&math);
+    printf(" phy=");
+    scanf("%d",&phy);
+    printf("hin=");
+    scanf("%d",&hin);
+    printf("eng=");
+    scanf("%d",&eng);
+    printf("chem=");
+    scanf("%d",&chem);
+    average=(math+phy+hin+eng+chem)/5;
+    printf("average=%d",average);
+    return 0;
+}
